@@ -23,7 +23,8 @@ function HomeScreen({ history }) {
 
     return (
         <div>
-            {!keyword && <ProductCarousel />}
+            {/* {!keyword && <ProductCarousel />} */}
+            {/* product carousel hide */}
 
             <h1>Latest Products</h1>
             {loading ? <Loader />

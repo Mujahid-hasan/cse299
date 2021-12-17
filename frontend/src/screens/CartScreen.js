@@ -25,7 +25,8 @@ function CartScreen({ match, location, history }) {
     }
 
     const checkoutHandler = () => {
-        history.push('/login?redirect=shipping')
+        // history.push('/login?redirect=shipping')
+        history.push("/login?redirect=shipping")
     }
 
     return (
@@ -103,7 +104,7 @@ function CartScreen({ match, location, history }) {
                             onClick={checkoutHandler}
                         >
                             Proceed To Checkout
-                        </Button>
+                        </Button> 
                     </ListGroup.Item>
 
 
